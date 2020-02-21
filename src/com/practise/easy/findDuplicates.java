@@ -14,6 +14,7 @@ public class findDuplicates {
             if(num[i] != num[j]){
                 i++;
                 num[i] = num[j];
+
             }
         }
         return i + 1 ;
